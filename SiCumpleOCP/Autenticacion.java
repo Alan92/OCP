@@ -1,12 +1,12 @@
-class Authenticator{
-    private UserProvider provider;
+class Autenticar {
+    private Proveedor proveedor;
  
-    public Authenticator(UserProvider provider) {
-        this.provider = provider;
+    public Autenticar(Proveedor proveedor) {
+        this.proveedor = proveedor;
     }
  
     public boolean autenticar(String login, String paswword){
-        List<User> users = provider.getUsers();
+        List<Userios> usuarios = proveedor.obtenerUsuarios();
         // Aqui nuestro codigo para verificar dentro la lista
         return true;
     }
