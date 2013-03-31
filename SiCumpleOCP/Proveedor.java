@@ -1,3 +1,3 @@
-interface UserProvider{
-    List<User> getUsers();
+interface Proveedor{
+    List<Usuarios> obtenerUsuarios();
 }
